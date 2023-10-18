@@ -1,5 +1,4 @@
-# My Compiler
-## Fusion
+# Fusion Compiler
 
 ### About:
 Fusion is a custom High-level programming language.
