@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+num imp() {
+    num i = 1;
+    
+    execute {
+        out("This is iteration %d in a do-while loop.\n", i);
+        i++;
+    } span (i <= 5);
+
+    give 0;
+}
