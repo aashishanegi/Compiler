@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+num imp()
+{
+  num x, y;
+  bignum total, diff;
+  num *ptr;
+  bignum num i, j;
+  as(i=0; i < 10; i++){
+    as(j=10; j > 0; j--){
+    out("%d",i);
+    }
+  }
+  x = -10, y = 20;
+  x=x*3/2;
+  total = x + y;
+  diff = x - y;
+  num rem = x % y;
+  out ("Total = %d \n", total);
+}
