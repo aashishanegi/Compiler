@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+num imp() {
+    num x = 5;
+    num y = 3;
+
+    condition (x > y) {
+        out("x is greater than y\n");
+    } or (x < y) {
+        out("x is less than y\n");
+    } another {
+        out("x is equal to y\n");
+    }
+
+    num result = x + y; // Addition
+    out("Addition: %d\n", result);
+
+    result = x - y; // Subtraction
+    out("Subtraction: %d\n", result);
+
+    result = x * y; // Multiplication
+    out("Multiplication: %d\n", result);
+
+    result = x / y; // Division
+    out("Division: %d\n", result);
+
+    result = x % y; // Modulus (remainder)
+    out("Modulus: %d\n", result);
+
+    give 0;
+}
