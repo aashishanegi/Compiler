@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+num imp() {
+    num choice;
+    
+    out("1. Display Hello\n");
+    out("2. Display Goodbye\n");
+    printf("Enter your choice: ");
+    find("%d", &choice);
+
+    lock (choice) {
+        key 1:
+            out("Hello\n");
+            gap;
+        key 2:
+            out("Goodbye\n");
+            gap;
+        default:
+            out("Invalid choice\n");
+            gap;
+    }
+
+    give 0;
+}
