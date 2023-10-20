@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+num imp() {
+    num n, first = 0, second = 1, next, i;
+
+    out("Enter the number of terms: ");
+    find("%d", &n);
+
+    out("Fibonacci Series: ");
+
+    as (i = 0; i < n; i++) {
+        condition (i <= 1)
+            next = i;
+        another {
+            next = first + second;
+            first = second;
+            second = next;
+        }
+        out("%d ", next);
+    }
+
+    out("\n");
+
+    give 0;
+}
