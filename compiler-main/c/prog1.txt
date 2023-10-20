@@ -1,0 +1,8 @@
+#include<stdio.h>
+null imp(){ 
+    
+	num a=5;
+    const num b=3;
+    num c= a + b;  
+    out(c);   
+}
