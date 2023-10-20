@@ -2,25 +2,25 @@ enum keywords
 {
   INT=100,
   LONG,
-  LONG_LONG,
   SHORT,
-  SIGNED,
-  UNSIGNED,
   FOR,
   BREAK,
   CONTINUE,
   RETURN,
   CHAR,
+  STRING_DT,
   IF,
   ELSE,
   WHILE,
   DO,
   SWITCH,
   CASE,
-  ELSEIF,
+  VOID,
   CONST,
   FLOAT,
-  DOUBLE
+  DOUBLE,
+  MAIN,
+  PRINTF
 };
 
 enum operators
@@ -40,7 +40,11 @@ enum operators
   STAR,
   MODULO,
   LS_THAN,
-  GR_THAN
+  GR_THAN,
+  PLUS_EQ,
+  MINUS_EQ,
+  STAR_EQ,
+  MODULO_EQ
 };
 
 enum punctuation
@@ -64,7 +68,7 @@ enum constants
   STRING
 };
 
-enum IDENTIFIER
+enum Identifier
 {
-  IDENTIFIER=500
+  Identifier=500
 };
