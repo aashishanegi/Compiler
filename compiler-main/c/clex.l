@@ -119,6 +119,7 @@ hex [0-9a-f]
 "<"                           {printf("\t%-30s : %s\n",yytext,"Operator"); token_count++;}
 ">"                           {printf("\t%-30s : %s\n",yytext,"Operator"); token_count++;}
 "&"                           {printf("\t%-30s : %s\n",yytext,"Special Symbol"); token_count++;}
+":"                           {printf("\t%-30s : %s\n",yytext,"Special Symbol"); token_count++;}
 .                             {printf("Line %3d: Illegal character %s\n",yylineno,yytext);}
 
 %%
